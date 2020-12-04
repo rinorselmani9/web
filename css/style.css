@@ -1,0 +1,21 @@
+li{
+    display: inline;
+}
+.loginforma{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.formainput{
+    margin: 0 auto;
+}
+.forma1{
+    display: block;
+}
+form{
+    background-color: aquamarine;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 30px;
+    text-align: center;
+}
