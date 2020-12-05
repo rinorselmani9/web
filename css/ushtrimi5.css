@@ -1,0 +1,33 @@
+#header{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../ubtlogo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.headcontent{
+    border: 1px solid black;
+    width: 20%;
+    position: relative;
+    height: 20%;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+ul li{
+    margin: 0 7px;
+}
