@@ -1,14 +1,15 @@
 #header{
-    background-color: aqua;
     width: 100vw;
     height: 100vh;
     background-image: url(../ubtlogo.png);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;
 }
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 .headcontent{
     border: 1px solid black;
@@ -25,9 +26,78 @@
 }
 ul{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     list-style-type: none;
 }
 ul li{
     margin: 0 7px;
+}
+.headitem{
+    margin: 5px 0;
+    color:white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.shadow{
+    height: inherit;
+    width: inherit;
+    background-color: blue;
+    opacity: 0.6;
+    position: absolute;
+}
+.links>li{
+    background-color: gray;
+    border-radius: 10px;
+    padding: 3px 10px;
+
+}
+.links>li:last-child{
+    background-color: purple;
+}
+.upper{
+    border: 1px solid black;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+.upperitem{
+    border: 1px solid black;
+}
+.upperitem:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.lines{
+    background-color: lightgrey;
+    width: 50px;
+    height: 10px;
+}
+.lines:nth-child(2){
+    background-color:darkslategray;
+}
+.upperitem:last-child{
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.post{
+    flex-basis: 200px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.post img{
+    height: 50%;
+    width: 50px;
+}
+.postitem{
+    margin: 5px 0;
 }
